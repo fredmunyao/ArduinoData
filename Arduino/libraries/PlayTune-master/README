@@ -1,0 +1,26 @@
+Arduino / AVR library for playing songs using match
+values and delays.  Supports up to three timers simultaneously. 
+
+playtune.cpp / playtune.h
+ - Arduino Library for generating music
+
+songs/
+ - Header files for pre-generated songs
+
+bin/xml2h.py
+ - Converts a MusicXML file into a header file
+   for the Arduino lib
+
+musescore/zapchords.js
+ - plugin for musescore that removes chords
+
+atmega168.cpp
+ - example code for the atmega168
+
+attiny85.cpp
+ - example code for the attiny85
+
+Makefile
+ - Modify to either build for the atmega168 or attiny85
+
+See http://jarv.org for more info
